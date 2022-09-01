@@ -308,10 +308,11 @@ footer{
     text-transform: lowercase;
 }
 
-@media screen and (max-width: 1210px){
+@media screen and (max-width: 1230px){
     .nome-site p{
-        font-size: 25px;
+        font-size: 28px;
         white-space: nowrap;
+        padding-top: 35px;
     }
 }
 
@@ -325,8 +326,8 @@ footer{
     }
     .menu-toggle{
         display: flex;
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
         padding-right: 20px;
     }
     .menu-navbar a{
@@ -348,8 +349,8 @@ footer{
     }
     .barra-pesquisa-toggle{
         display: flex;
-        height: 30px;
-        width: 30px;
+        height: 60px;
+        width: 60px;
     }
     .barra-pesquisa-toggle img{
         height: 100%;
@@ -363,24 +364,24 @@ footer{
         height: 100px;
     }
     .banner{
-    display: none;
+        display: none;
     }
     .banner-toggle{
         background-color: #0f044e;
         color: white;
         display: flex;
-        padding-top: 20px;
+        height: 500px;
     }
     .banner-toggle img{
-        height: 210px;
-        width: 320px;
+        height: 300px;
+        width: 400px;
         border-radius: 15px;
     }
     .banner-toggle p{
         font-size: 18px;
     }
     main h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     .produtos-mais-vendidos, .produtos-ofertas{
         flex-direction: column;
@@ -392,6 +393,6 @@ footer{
         height: 1650px;
     }
     .rodape{
-        height: 300px;
+        display: inline;
     }
 }
